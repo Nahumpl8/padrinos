@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Padrinos boda Claudia & Nahum</title>
+</head>
+<style>
+    @font-face {
+        font-family: Signature;
+        src: url(./src/fonts/Signature.ttf);
+    }
+
+    @font-face {
+        font-family: Vogue;
+        src: url(./src/fonts/Vogue.ttf);
+    }
+
+    @font-face {
+        font-family: Cinzel;
+        src: url(./src/fonts/Cinzel.ttf);
+    }
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    html {
+        font-size: 10px;
+    }
+
+    body {
+        background-color: rgb(250, 249, 245);
+        padding: 10px;
+        width: 100%;
+        height: 100vh;
+
+    }
+    .all-page{
+        width: 100%;
+        height: 100%;
+        background-color: rgb(250, 249, 245);
+        border: 4px double rgb(96, 88, 43);
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        padding: 20px 10px;
+    
+    }
+
+    .logo{
+        width: 50%;
+        height: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo img{
+        width: 100%;
+        height: 100%;
+        max-width: 100px;
+        max-height: 100px;
+    }
+
+    .info-invitacion{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        gap: 40px;
+        text-align: center;
+        padding: 0px 20px;
+    }
+
+    h1{
+        font-family: 'Signature';
+        font-size: 5rem;
+        color: rgb(96, 88, 43);
+    }
+
+    p{
+        font-family: 'Cinzel';
+        font-size: 2rem;
+        color: rgb(96, 88, 43);
+        
+    }
+
+    a{
+        font-family: 'Vogue';
+        font-size: 3rem;
+        text-decoration: none;
+        color: #fff;
+        background-color: rgb(96, 88, 43);
+        padding: 10px 20px;
+        border-radius: 10px;
+        transition: all 0.3s;
+        display: block;
+    }
+
+    .atte{
+        width: 100%;
+        height: 20%;
+        display: flex;
+        justify-content: end;
+        align-items: end;
+        text-align: end;
+        margin-top: 20px;
+    }
+
+    h2{
+        font-family: 'Signature';
+        font-size: 1.5rem;
+        color: rgb(96, 88, 43);
+    }
+
+    @media screen and (max-width: 768px){
+
+        h1{
+            font-size: 2rem;
+        }
+
+        p{
+            font-size: 1.5rem;
+        }
+
+        a{
+            font-size: 2rem;
+        }
+        
+    }
+
+
+</style>
+
+<body>
+
+    <div class="all-page">
+        <div class="logo">
+            <img src="./src/img/goldLogo.png" alt="Invitación">
+        </div>
+        <div class="info-invitacion">
+            <h1>¡Hola!</h1>
+            <p>Como saben este 19 de Octubre será el día más especial de nuestra vida, <strong>¡NOS CASAMOS!</strong> estamos más que emocionados por este día, en primer lugar esperamos que puedan acompañarnos pues su asistencia será de suma importancia ya que queremos hacerles otra invitación, ustedes que son unas personas tan especiales en nuestra vida, nos encantaría que fueran nuestros <strong>padrinos</strong> .</p>
+            <p>Esperamos contar con su presencia y su apoyo en este día tan especial para nosotros.</p>
+            <div class="atte">
+                <h2>Claudia & Nahum.</h2>
+            </div>
+        </div>
+        
+    </div>
+
+
+</body>
+
+</html>
