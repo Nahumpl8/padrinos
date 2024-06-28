@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Padrinos boda Claudia & Nahum</title>
+</head>
+<style>
+    @font-face {
+        font-family: Signature;
+        src: url(./src/fonts/Signature.ttf);
+    }
+
+    @font-face {
+        font-family: Vogue;
+        src: url(./src/fonts/Vogue.ttf);
+    }
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    html{
+        font-size: 10px;
+    }
+    body{
+        background-color: rgb(250, 249, 245);
+        padding: 10px;
+        width: 100%;
+        height: 100vh;
+
+    }
+    .all-page{
+        width: 100%;
+        height: 100%;
+        background-color: rgb(250, 249, 245);
+        border: 4px double rgb(96, 88, 43);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .logo{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo img{
+        width: 100%;
+        height: 100%;
+        max-width: 500px;
+        max-height: 500px;
+    }
+
+    a{
+        font-family: 'Vogue';
+        font-size: 3rem;
+        text-decoration: none;
+        color: #fff;
+        background-color: rgb(96, 88, 43);
+        padding: 10px 20px;
+        border-radius: 10px;
+        transition: all 0.3s;
+        display: block;
+    }
+
+    @media (max-width: 768px){
+        .logo img{
+            max-width: 300px;
+            max-height: 300px;
+        }
+
+        a{
+            font-size: 2rem;
+        }
+    }
+</style>
+
+<body>
+
+    <div class="all-page">
+        <div class="logo">
+            <img src="./src/img/goldLogo.png" alt="logo de la boda">
+        </div>
+        <a href="./invitacion6.html">
+            Entrar
+        </a>
+
+    </div>
+
+</body>
+
+</html>
