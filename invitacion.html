@@ -22,7 +22,12 @@
         src: url(./src/fonts/Cinzel.ttf);
     }
 
-    *{
+    @font-face {
+        font-family: Outfit;
+        src: url(./src/fonts/Outfit.ttf);
+    }
+
+    * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
@@ -36,10 +41,11 @@
         background-color: rgb(250, 249, 245);
         padding: 10px;
         width: 100%;
-        height: 100vh;
+        height: 100%;
 
     }
-    .all-page{
+
+    .all-page {
         width: 100%;
         height: 100%;
         background-color: rgb(250, 249, 245);
@@ -49,10 +55,10 @@
         justify-content: start;
         align-items: center;
         padding: 20px 10px;
-    
+
     }
 
-    .logo{
+    .logo {
         width: 50%;
         height: 20%;
         display: flex;
@@ -60,14 +66,14 @@
         align-items: center;
     }
 
-    .logo img{
+    .logo img {
         width: 100%;
         height: 100%;
         max-width: 100px;
         max-height: 100px;
     }
 
-    .info-invitacion{
+    .info-invitacion {
         width: 100%;
         height: 50%;
         display: flex;
@@ -79,20 +85,22 @@
         padding: 0px 20px;
     }
 
-    h1{
+    h1 {
         font-family: 'Signature';
         font-size: 5rem;
         color: rgb(96, 88, 43);
     }
 
-    p{
-        font-family: 'Cinzel';
+    p {
+        font-family: 'Outfit', sans-serif;
         font-size: 2rem;
         color: rgb(96, 88, 43);
-        
+        font-weight: 300;
+        text-align: justify;
+
     }
 
-    a{
+    a {
         font-family: 'Vogue';
         font-size: 3rem;
         text-decoration: none;
@@ -104,7 +112,7 @@
         display: block;
     }
 
-    .atte{
+    .atte {
         width: 100%;
         height: 20%;
         display: flex;
@@ -114,30 +122,29 @@
         margin-top: 20px;
     }
 
-    h2{
+    h2 {
         font-family: 'Signature';
         font-size: 1.5rem;
         color: #60582b;
     }
 
-    @media screen and (max-width: 768px){
+    @media screen and (max-width: 768px) {
 
-        h1{
+        h1 {
             font-size: 1.8rem;
             letter-spacing: 3px;
+            margin-top: 20px;
         }
 
-        p{
+        p {
             font-size: 1.5rem;
         }
 
-        a{
+        a {
             font-size: 2rem;
         }
-        
+
     }
-
-
 </style>
 
 <body>
@@ -148,13 +155,47 @@
         </div>
         <div class="info-invitacion">
             <h1>¡Humberto!</h1>
-            <p>Como saben este 19 de Octubre será el día más especial de nuestra vida, <strong>¡NOS CASAMOS!</strong> estamos más que emocionados por este día, en primer lugar esperamos que puedan acompañarnos pues su asistencia será de suma importancia ya que queremos hacerles otra invitación, ustedes que son unas personas tan especiales en nuestra vida, nos encantaría que fueran nuestros <strong>padrinos</strong> .</p>
-            <p>Esperamos contar con su presencia y su apoyo en este día tan especial para nosotros.</p>
+            <p>
+
+                Nos has acompañado en cada etapa de nuestra relación y queremos que así siga siendo siempre. Tenemos
+                muchísimas cosas que agradecerte y una de las más importantes es que en momentos complicados nos has
+                mantenido unidos.
+                Gracias por siempre llenarnos de risas e increíbles momentos.
+
+                <br>
+                <br>
+
+                Neno, aún cuando ya encontré al amor de mi
+                vida siempre seguiré necesitando a mi
+                hermano.
+
+                <br>
+                <br>
+
+                Por eso y más, te tenemos una pregunta...
+                
+                <br>
+                <br>
+
+
+                <strong>¿Aceptarias ser nuestro padrinos de anillos?</strong>
+
+                <br>
+                <br>
+
+
+            <p> P.D. Espero este anillo nunca tengas que escondérmelo.
+            </p>
+
+
+
+
+            </p>
             <div class="atte">
                 <h2>Claudia & Nahum.</h2>
             </div>
         </div>
-        
+
     </div>
 
 
